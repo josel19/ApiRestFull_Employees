@@ -1,4 +1,4 @@
-## API RESTful Employees
+## API RESTFULL Employees
 
 ## Descripción
 Esto es un proyecto de APIREStFULL desarrollado en .NET Core que tiene como función gestionar una base de datos de empleados.
