@@ -20,18 +20,25 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
 
 ## Instalación
 1. Clonar repositorio:
-`git clone https://github.com/tu_usuario/tu_repositorio.git`
-2. Configurar base de datos:
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+```
+3. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
    - Importar un escribir el archivo BD_APIREST_TEST1 encontrado en la carpeta raiz del repositorio.
    - Configurar cadena de conexion de base de datos segun sea requerido:
    ```bash
-     `"ConnectionStrings": {
+     "ConnectionStrings": {
         "DefaultConnection": "Server=nombre_servidor;Database=BD_APIREST_TEST1;User Id=id_user;Password=user_password;"
-      }`    
-3. Restaurar dependecias:
+      }
+   ```    
+4. Restaurar dependecias:
    - Abrir una consola cmd en la carpeta raíz del proyecto y ejecutar el iguiente comando:
-     `dotnet restore`
-4. Ejecutar  aplicacion:
-   `dotnet run`
+   ```bash
+   dotnet restore
+   ```
+5. Ejecutar  aplicacion:
+   ```bash
+   dotnet run
+   ```
 
