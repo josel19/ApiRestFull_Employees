@@ -1,6 +1,6 @@
-**API RESTful Employees**
+## API RESTful Employees
 
-**Descripción**
+## Descripción
 Esto es un proyecto de APIREStFULL desarrollado en .NET Core que tiene como función gestionar una base de datos de empleados.
 Esta API proporciona la funcionalidad de realizar operaciones CRUD sencillas basadas en los registros de los empleados.
 Todos los request hechos funcionan con procedimientos almacenados desde la base de datos SQL server
@@ -10,7 +10,7 @@ La base de datos en SQL Server incluye una tabla `Employees`, la cual tiene 1 pr
 EndPoint(Un total de 6). En la carpeta raíz del repositorio podrá encontrar un archivo SQL llamado **BD_APIREST_TEST1** él 
 cuál contendrá todas las instrucciones SQL para importarlo en su gestor de base de datos SQLServer. 
 
-**EndPoints**
+## EndPoints
 - **Crear un nuevo empleado:** `POST /employees`
 - **Obtener la lista de empleados:** `GET /employees`
 - **Obtener un empleado por ID:** `GET /employees/{id}`
@@ -18,7 +18,7 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
 - **Eliminar un empleado:** `DELETE /employees/{id}`
 - **Obtener la lista de empleados a partir de una fecha contratación:** `POST: /Employee/bydate`
 
-**Instalación*
+## Instalación
 1. Clonar repositorio:
 `git clone https://github.com/tu_usuario/tu_repositorio.git`
 2. Configurar base de datos:
