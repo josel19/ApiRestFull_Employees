@@ -21,7 +21,7 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
 ## Instalación
 1. Clonar repositorio:
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/josel19/ApiRestFull_Employees
 ```
 3. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
