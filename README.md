@@ -25,7 +25,7 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
 ```
 3. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
-   - Importar un escribir el archivo BD_APIREST_TEST1 encontrado en la carpeta raiz del repositorio.
+   - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raiz del repositorio.
    - Configurar cadena de conexion de base de datos segun sea requerido:
    ```bash
      "ConnectionStrings": {
