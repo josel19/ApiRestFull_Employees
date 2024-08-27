@@ -25,6 +25,7 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
    - Abrir gestor de base de datos SQLserver.
    - Importar un escribir el archivo BD_APIREST_TEST1 encontrado en la carpeta raiz del repositorio.
    - Configurar cadena de conexion de base de datos segun sea requerido:
+   ```bash
      `"ConnectionStrings": {
         "DefaultConnection": "Server=nombre_servidor;Database=BD_APIREST_TEST1;User Id=id_user;Password=user_password;"
       }`    
