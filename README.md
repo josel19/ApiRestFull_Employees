@@ -23,7 +23,7 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
 ```bash
 git clone https://github.com/josel19/ApiRestFull_Employees
 ```
-3. Configurar base de datos:
+2. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
    - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raíz del repositorio.
    - Configurar cadena de conexion de base de datos encontrada en el archivo `appsettings.json` de la carpeta raíz según sea requerido:
@@ -40,12 +40,12 @@ git clone https://github.com/josel19/ApiRestFull_Employees
         "DefaultConnection": "Server=nombre_servidor;Database=BD_APIREST_TEST1;User Id=id_user;Password=user_password;"
       }
    ```    
-4. Restaurar dependecias:
+3. Restaurar dependecias:
    - Abrir una consola cmd en la carpeta raíz del proyecto y ejecutar el iguiente comando:
    ```bash
    dotnet restore
    ```
-5. Ejecutar  aplicación:
+4. Ejecutar  aplicación:
    ```bash
    dotnet run
    ```
