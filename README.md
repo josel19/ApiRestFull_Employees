@@ -16,7 +16,7 @@ cuál contendrá todas las instrucciones SQL para importarlo en su gestor de bas
 - **Obtener un empleado por ID:** `GET /employees/{id}`
 - **Actualizar un empleado:** `PUT /employees/{id}`
 - **Eliminar un empleado:** `DELETE /employees/{id}`
-- **Obtener la lista de empleados a partir de una fecha contratación:** `POST: /Employee/bydate`
+- **Obtener la lista de empleados a partir de una fecha de contratación:** `POST: /Employee/bydate`
 
 ## Instalación
 1. Clonar repositorio:
