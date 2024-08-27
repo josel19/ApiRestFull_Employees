@@ -27,6 +27,13 @@ git clone https://github.com/josel19/ApiRestFull_Employees
    - Abrir gestor de base de datos SQLserver.
    - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raíz del repositorio.
    - Configurar cadena de conexion de base de datos encontrada en el archivo `appsettings.json` de la carpeta raíz según sea requerido:
+     Servidor Local
+    ```bash
+     "ConnectionStrings": {
+        "conexionBD": "Server=localhost;Database=APIREST_TEST1;Trusted_Connection=True;Encrypt=False;"
+      }
+   ```  
+     Otros Servidores
    ```bash
      "ConnectionStrings": {
         "DefaultConnection": "Server=nombre_servidor;Database=BD_APIREST_TEST1;User Id=id_user;Password=user_password;"
