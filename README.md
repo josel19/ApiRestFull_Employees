@@ -1,7 +1,7 @@
 ## API RESTFULL Employees
 
 ## Descripción
-Esto es un proyecto de APIREStFULL desarrollado en .NET Core que tiene como función gestionar una base de datos de empleados.
+Esto es un proyecto de APIRESTFULL desarrollado en .NET Core que tiene como función gestionar una base de datos de empleados.
 Esta API proporciona la funcionalidad de realizar operaciones CRUD sencillas basadas en los registros de los empleados.
 Todos los request hechos funcionan con procedimientos almacenados desde la base de datos SQL server
 
