@@ -1,0 +1,6 @@
+@ApiRestFull_Employees_HostAddress = http://localhost:5209
+
+GET {{ApiRestFull_Employees_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
