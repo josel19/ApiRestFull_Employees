@@ -7,7 +7,7 @@ Todos los request hechos funcionan con procedimientos almacenados desde la base 
 
 ## Base de Datos
 La base de datos en SQL Server incluye una tabla `Employees`, la cual tiene 1 procedimiento almacenado por cada respectivo.
-EndPoint(Un total de 6). En la carpeta raíz del repositorio podrá encontrar un archivo SQL llamado **BD_APIREST_TEST1** él 
+EndPoint(Un total de 6). En la carpeta raíz del repositorio podrá encontrar un archivo SQL llamado `BD_APIREST_TEST1` él 
 cuál contendrá todas las instrucciones SQL para importarlo en su gestor de base de datos SQLServer. 
 
 ## EndPoints
