@@ -25,8 +25,8 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
 ```
 3. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
-   - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raiz del repositorio.
-   - Configurar cadena de conexion de base de datos segun sea requerido:
+   - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raíz del repositorio.
+   - Configurar cadena de conexion de base de datos encontrada en el archivo `appsettings.json` de la carpeta raíz según sea requerido:
    ```bash
      "ConnectionStrings": {
         "DefaultConnection": "Server=nombre_servidor;Database=BD_APIREST_TEST1;User Id=id_user;Password=user_password;"
@@ -37,7 +37,7 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
    ```bash
    dotnet restore
    ```
-5. Ejecutar  aplicacion:
+5. Ejecutar  aplicación:
    ```bash
    dotnet run
    ```
