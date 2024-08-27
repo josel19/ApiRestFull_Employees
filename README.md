@@ -41,7 +41,7 @@ git clone https://github.com/josel19/ApiRestFull_Employees
       }
    ```    
 3. Restaurar dependecias:
-   - Abrir una consola cmd en la carpeta raíz del proyecto y ejecutar el iguiente comando:
+   - Abrir una consola cmd en la carpeta raíz del proyecto y ejecutar el siguiente comando:
    ```bash
    dotnet restore
    ```
