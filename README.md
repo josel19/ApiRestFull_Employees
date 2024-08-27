@@ -25,7 +25,7 @@ git clone https://github.com/josel19/ApiRestFull_Employees
 ```
 2. Configurar base de datos:
    - Abrir gestor de base de datos SQLserver.
-   - Importar un escribir el archivo `BD_APIREST_TEST1` encontrado en la carpeta raíz del repositorio.
+   - Importar el archivo `BD_APIREST_TEST1` encontrado en la carpeta raíz del repositorio en su gestor de base de datos.
    - Configurar cadena de conexion de base de datos encontrada en el archivo `appsettings.json` de la carpeta raíz según sea requerido:
      
    Servidor Local
